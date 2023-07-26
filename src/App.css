@@ -1,0 +1,73 @@
+.normal-message-list-wrapper {
+  position: relative;
+  display: flex;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.left-section-scroll-div{
+  height: 90vh;
+  overflow-y: auto;
+}
+.left-section-content-wrapper {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+.active{
+  background: gainsboro
+}
+.message-title {
+  font-weight: bold;
+}
+.content {
+  margin-left: 5px;
+  overflow: hidden;
+  margin-right: 3px;
+  width: 100%;
+  position: relative;
+}
+.message-content {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+.chat-parent {
+  display: flex;
+}
+.left-section-parent {
+  margin: 1px;
+  border-right: solid 1px #a4a4a4;
+  background: #f9f9f9;
+  height: 99vh;
+}
+.right-section-parent {
+  margin: 1px;
+}
+.left-section-heading {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  border-bottom: 1px solid #a4a4a4;
+}
+.right-section-heading {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a4a4a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 45px;
+  width: 45px;
+}
+.img {
+  height: 100%;
+}

@@ -1,0 +1,820 @@
+{
+  "data": {
+    "chats": {
+      "continuationId": null,
+      "chats": [
+        {
+          "id": "3dc22400-4648-44a3-beb9-cbfecc1a9d1f",
+          "type": "single",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2023-07-19T00:44:04.704Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 10314,
+            "message": "dsdsds",
+            "type": "text",
+            "dateCreated": "2023-07-19T00:44:06.337Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 10314,
+                "timestamp": "2023-07-19T00:44:06.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "2b881170-5b6d-11e7-a17b-2d997b30f468",
+              "username": "support",
+              "firstname": "Hypercare",
+              "lastname": "Support",
+              "profilePic": null,
+              "role": "Support",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "fgdgdfgfdgdf",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "cdfcec57-a33e-4f28-ac46-f04a5cb17b20",
+          "type": "single",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2023-02-03T19:16:50.721Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 10313,
+            "message": "Test!!!!!!!!",
+            "type": "text",
+            "dateCreated": "2023-07-19T00:43:54.925Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 10313,
+                "timestamp": "2023-07-19T00:43:55.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "263ef968-865e-497e-9d38-2ca7cc1cdb2d",
+              "username": "salmaan",
+              "firstname": "Salmaan",
+              "lastname": "Ahmed",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/263ef968-865e-497e-9d38-2ca7cc1cdb2d/bee6e99c-9c7f-496f-a9dc-ef9a452cac8b.jpg",
+                "__typename": "Image"
+              },
+              "role": "iOS Engineer :)",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "2335ae90-2a94-4401-a998-2a3e032e055c",
+          "type": "single",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2023-07-19T00:43:38.544Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 10312,
+            "message": "Testing messages",
+            "type": "text",
+            "dateCreated": "2023-07-19T00:43:44.587Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 10312,
+                "timestamp": "2023-07-19T00:43:44.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "3c4b9d2b-eff4-48c9-95ab-fba0682c229b",
+              "username": "sruthi0000",
+              "firstname": "sruthi",
+              "lastname": "oooo",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/3c4b9d2b-eff4-48c9-95ab-fba0682c229b/8131ac64-35ca-41d5-a480-d8a2417da299.png",
+                "__typename": "Image"
+              },
+              "role": null,
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "10837472-addf-44cc-a982-a1dad93ebee8",
+          "type": "group",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2023-07-19T00:43:31.482Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 10311,
+            "message": "Hey",
+            "type": "text",
+            "dateCreated": "2023-07-19T00:43:32.810Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 10311,
+                "timestamp": "2023-07-19T00:43:32.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "76c2b470-f389-4246-9da9-1eb2f99decbc",
+              "username": "salmaan1",
+              "firstname": "Salmaan",
+              "lastname": "Ahmed",
+              "profilePic": null,
+              "role": "Salmaan1",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+              "username": "umarazhar",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/b28780a6-99eb-4407-90c9-e498615b327e/6447a7fb-c31c-444c-9dfd-e495f50a5f4c.png",
+                "__typename": "Image"
+              },
+              "role": "CTO @ Hypercare",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "9ef101cd-d3d7-43fe-abc4-d538c7c95833",
+          "type": "single",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2022-12-24T19:08:35.787Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 5772,
+            "message": "(123) 456-7890",
+            "type": "text",
+            "dateCreated": "2023-02-16T20:21:46.217Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "77476b67-23d8-466e-8606-719e6efa28e1",
+              "username": "sralph",
+              "firstname": "Ralph",
+              "lastname": "Simelus",
+              "profilePic": null,
+              "role": "Android Engineer",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5772,
+                "timestamp": "2023-02-16T20:21:55.000Z",
+                "__typename": "ReadReceipt"
+              },
+              {
+                "user": {
+                  "id": "77476b67-23d8-466e-8606-719e6efa28e1",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5772,
+                "timestamp": "2023-02-16T20:21:46.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "ADMIN",
+              "id": "77476b67-23d8-466e-8606-719e6efa28e1",
+              "username": "sralph",
+              "firstname": "Ralph",
+              "lastname": "Simelus",
+              "profilePic": null,
+              "role": "Android Engineer",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Testing new work status flow",
+              "workStatusProxy": {
+                "id": "2b881170-5b6d-11e7-a17b-2d997b30f468",
+                "firstname": "Hypercare",
+                "lastname": "Support",
+                "username": "support",
+                "status": "active",
+                "__typename": "PublicUser"
+              },
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "d01c5707-cd3f-4079-ae76-a6f9cab24434",
+          "type": "self",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2023-02-03T19:17:07.059Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 5770,
+            "message": "(123) 456-7890",
+            "type": "text",
+            "dateCreated": "2023-02-16T20:21:00.308Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5770,
+                "timestamp": "2023-02-16T20:21:00.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "7a81241a-15a5-412f-8fbf-8321df4605a7",
+          "type": "group",
+          "title": "MUTE TEMP",
+          "muted": [],
+          "unreadPriorityMessages": [
+            5571
+          ],
+          "dateCreated": "2023-01-18T18:56:19.968Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 5604,
+            "message": "HI",
+            "type": "text",
+            "dateCreated": "2023-01-18T19:10:54.944Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+              "username": "umarazhar",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/b28780a6-99eb-4407-90c9-e498615b327e/6447a7fb-c31c-444c-9dfd-e495f50a5f4c.png",
+                "__typename": "Image"
+              },
+              "role": "CTO @ Hypercare",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5604,
+                "timestamp": "2023-01-18T19:10:55.000Z",
+                "__typename": "ReadReceipt"
+              },
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5604,
+                "timestamp": "2023-02-14T19:36:11.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "263ef968-865e-497e-9d38-2ca7cc1cdb2d",
+              "username": "salmaan",
+              "firstname": "Salmaan",
+              "lastname": "Ahmed",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/263ef968-865e-497e-9d38-2ca7cc1cdb2d/bee6e99c-9c7f-496f-a9dc-ef9a452cac8b.jpg",
+                "__typename": "Image"
+              },
+              "role": "iOS Engineer :)",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "3c4b9d2b-eff4-48c9-95ab-fba0682c229b",
+              "username": "sruthi0000",
+              "firstname": "sruthi",
+              "lastname": "oooo",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/3c4b9d2b-eff4-48c9-95ab-fba0682c229b/8131ac64-35ca-41d5-a480-d8a2417da299.png",
+                "__typename": "Image"
+              },
+              "role": null,
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "52b718ac-61d8-41c0-8789-057496abb808",
+              "username": "umarazh395",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/52b718ac-61d8-41c0-8789-057496abb808/5a221fa0-23fa-44dc-aab5-dfe9c262211a.png",
+                "__typename": "Image"
+              },
+              "role": "CTO",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "76c2b470-f389-4246-9da9-1eb2f99decbc",
+              "username": "salmaan1",
+              "firstname": "Salmaan",
+              "lastname": "Ahmed",
+              "profilePic": null,
+              "role": "Salmaan1",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+              "username": "umarazhar",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/b28780a6-99eb-4407-90c9-e498615b327e/6447a7fb-c31c-444c-9dfd-e495f50a5f4c.png",
+                "__typename": "Image"
+              },
+              "role": "CTO @ Hypercare",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "REGULAR",
+              "id": "ba5c0d2a-9aae-4961-a32c-2cb16cfa84ea",
+              "username": "narotta563",
+              "firstname": "Narottam",
+              "lastname": "Bisht",
+              "profilePic": null,
+              "role": "Software Engineer @ Hyperc",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "b6a8732e-90dd-4459-9659-eda7d98bf5ea",
+          "type": "single",
+          "title": null,
+          "muted": [
+            "messages",
+            "system"
+          ],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2022-10-04T16:24:20.541Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 5315,
+            "message": "3",
+            "type": "text",
+            "dateCreated": "2023-01-09T18:02:12.155Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5315,
+                "timestamp": "2023-01-17T15:46:13.000Z",
+                "__typename": "ReadReceipt"
+              },
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5315,
+                "timestamp": "2023-01-09T18:02:12.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "b28780a6-99eb-4407-90c9-e498615b327e",
+              "username": "umarazhar",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/b28780a6-99eb-4407-90c9-e498615b327e/6447a7fb-c31c-444c-9dfd-e495f50a5f4c.png",
+                "__typename": "Image"
+              },
+              "role": "CTO @ Hypercare",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        },
+        {
+          "id": "a27f918f-4cf9-40a2-a016-64cfde1ae5ab",
+          "type": "single",
+          "title": null,
+          "muted": [],
+          "unreadPriorityMessages": [],
+          "dateCreated": "2022-09-29T20:45:27.031Z",
+          "image": null,
+          "status": "active",
+          "lastUnreadMessage": null,
+          "lastMessage": {
+            "id": 5310,
+            "message": "Hey",
+            "type": "text",
+            "dateCreated": "2023-01-09T18:00:58.662Z",
+            "priorityType": "regular",
+            "sender": {
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "__typename": "PublicUser"
+            },
+            "readBy": [
+              {
+                "user": {
+                  "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+                  "__typename": "PublicUser"
+                },
+                "messageId": 5310,
+                "timestamp": "2023-01-09T18:00:58.000Z",
+                "__typename": "ReadReceipt"
+              }
+            ],
+            "__typename": "Message"
+          },
+          "__typename": "Chat",
+          "members": [
+            {
+              "privilege": "REGULAR",
+              "id": "52b718ac-61d8-41c0-8789-057496abb808",
+              "username": "umarazh395",
+              "firstname": "Umar",
+              "lastname": "Azhar",
+              "profilePic": {
+                "url": "https://hc-api-staging-images.s3.ca-central-1.amazonaws.com/52b718ac-61d8-41c0-8789-057496abb808/5a221fa0-23fa-44dc-aab5-dfe9c262211a.png",
+                "__typename": "Image"
+              },
+              "role": "CTO",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": null,
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            },
+            {
+              "privilege": "ADMIN",
+              "id": "8100fed5-c1bf-4af0-a5b7-284612f38e6d",
+              "username": "hchamad",
+              "firstname": "Hamad ",
+              "lastname": "Ahmad",
+              "profilePic": null,
+              "role": "Neurosurgeon",
+              "status": "active",
+              "workStatus": "on_shift",
+              "statusExpiryDate": null,
+              "statusDescription": "Hey",
+              "workStatusProxy": null,
+              "__typename": "ChatMember"
+            }
+          ]
+        }
+      ],
+      "__typename": "PaginatedChats"
+    }
+  }
+}
