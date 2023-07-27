@@ -24,30 +24,19 @@ interface Sender {
 interface SortParam{
   timeToSort : string
 }
-interface ModifiedData{
-  id: string,
-  image: string
-  title: string 
-  lastMessageContent : string
-  timeToSort: string
-  timeToDesplay: string
-  isActive: boolean,
-  type: string,
-   
-}
 export function Chat() {
   const chatData = useAppSelector((state: RootState) => state.chatData);
   const dispatch = useAppDispatch();
   
   const modifyChatData = () => {
-    let modifiedData:ModifiedData[] = chatData.chatsForOrganization.map((chat: ChatData) => {
+    let modifiedData:object[] = chatData.chatsForOrganization.map((chat: ChatData) => {
       return {
         id: chat.chatId,
         image: getProfileIcon(chat.type),
         title: chat.title ? chat.title : getTitle(chat.members),
         lastMessageContent: getLastMessageContent(chat.lastMessage),
         timeToSort: chat.lastMessage.dateCreated,
-        timeToDesplay: getTimeToDisplay(chat.lastMessage.dateCreated),
+        timeToDisplay: getTimeToDisplay(chat.lastMessage.dateCreated),
         isActive: false,
         type: chat.type,
       };
@@ -57,7 +46,6 @@ export function Chat() {
       const dateB = Date.parse(b.timeToSort);
       return dateA - dateB;
     });
-    modifiedData = [...modifiedData , ...modifiedData]
     dispatch(updateProcessedChatData(modifiedData));
   };
   const getProfileIcon = (type: string) => {

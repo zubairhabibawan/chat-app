@@ -5,7 +5,7 @@ interface Chat {
   image: string;
   isActive: boolean;
   lastMessageContent: string;
-  timeToDesplay: string;
+  timeToDisplay: string;
   title: string;
 }
 export function LeftSection() {
@@ -30,7 +30,7 @@ export function LeftSection() {
             </div>
           </div>
           <div className={"time-header"}>
-            <span>{item.timeToDesplay}</span>
+            <span>{item.timeToDisplay}</span>
           </div>
         </div>
       ))}
